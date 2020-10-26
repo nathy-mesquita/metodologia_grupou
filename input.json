@@ -1,0 +1,50 @@
+[
+    {
+        "nome_completo": "Lura Holt",
+        "nota": [
+            {
+                "hardskill": "HTML",
+                "capacidade": 69.65
+            }
+        ],
+        "softskills": [
+            "Colaboração",
+            "Resolução de Problemas",
+            "Foco",
+            "Comunicação Eficaz ",
+            "Gestão de Tempo"
+        ]
+    },
+    {
+        "nome_completo": "Virgie Papini",
+        "nota": [
+            {
+                "hardskill": "HTML",
+                "capacidade": 71.3
+            }
+        ],
+        "softskills": [
+            "Gestão de Conflitos ",
+            "Disciplina",
+            "Criatividade",
+            "Liderança de Equipe",
+            "Comunicação Eficaz "
+        ]
+    },
+    {
+        "nome_completo": "Lawrence Fletcher",
+        "nota": [
+            {
+                "hardskill": "HTML",
+                "capacidade": 28.61
+            }
+        ],
+        "softskills": [
+            "Proatividade ",
+            "Gestão de Conflitos ",
+            "Foco",
+            "Colaboração",
+            "Produtividade"
+        ]
+    }
+]
