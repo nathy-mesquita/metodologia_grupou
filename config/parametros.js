@@ -1,5 +1,5 @@
 module.exports = () => {
-  const quantidade_alunos = 20;
+  const quantidade_alunos = 40;
 
   const calcula_outliers = (percentual) => {
     return Math.round((quantidade_alunos * percentual) / 100);
@@ -32,26 +32,26 @@ module.exports = () => {
     hardskills_turma: {
       'HTML': {
         capacidade: {
-          de: 50,
-          ate: 60,
-          outliers_perc_maiores_ate: calcula_outliers(20),
-          outliers_perc_menores_de: calcula_outliers(20)
+          de: 20,
+          ate: 80,
+          outliers_perc_maiores_ate: calcula_outliers(10),
+          outliers_perc_menores_de: calcula_outliers(5)
         }
       },
       'CSS': {
         capacidade: {
           de: 50,
-          ate: 60,
-          outliers_perc_maiores_ate: calcula_outliers(20),
-          outliers_perc_menores_de: calcula_outliers(20)
+          ate: 55,
+          outliers_perc_maiores_ate: calcula_outliers(0),
+          outliers_perc_menores_de: calcula_outliers(0)
         }
       },
       'Javascript': {
         capacidade: {
-          de: 50,
-          ate: 52,
-          outliers_perc_maiores_ate: calcula_outliers(20),
-          outliers_perc_menores_de: calcula_outliers(20)
+          de: 30,
+          ate: 60,
+          outliers_perc_maiores_ate: calcula_outliers(0),
+          outliers_perc_menores_de: calcula_outliers(50)
         }
       }
     },

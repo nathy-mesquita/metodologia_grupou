@@ -108,7 +108,7 @@ module.exports = (chance) => {
 
         for (h in aluno.hardskills) {
           const hardskill = aluno.hardskills[h]
-          console.log(h, hardskill)
+          // console.log(h, hardskill)
           aluno.hardskills[h]['diferenca_absoluta_media'] =
             aluno.hardskills[h]['nota'] - analise_hardskills_turma[h]['media']
 
@@ -118,7 +118,7 @@ module.exports = (chance) => {
         }
 
       }
-      console.log(alunos)
+      // console.log(alunos)
 
       // console.log(analise_hardskills_turma)
 
