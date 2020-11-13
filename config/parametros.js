@@ -1,12 +1,12 @@
 module.exports = () => {
-  const quantidade_alunos = 40;
+  const quantidade_alunos = 47;
 
   const calcula_outliers = (percentual) => {
     return Math.round((quantidade_alunos * percentual) / 100);
   }
 
   return {
-    turma: 123,
+    turma: 125,
     quantidade_alunos: quantidade_alunos,
     softskills: [
       'Resolução de Problemas',
@@ -30,41 +30,41 @@ module.exports = () => {
     ],
 
     hardskills_turma: {
-      'HTML': {
+      'API': {
         capacidade: {
-          de: 20,
-          ate: 80,
-          outliers_perc_maiores_ate: calcula_outliers(10),
-          outliers_perc_menores_de: calcula_outliers(5)
-        }
-      },
-      'CSS': {
-        capacidade: {
-          de: 50,
-          ate: 55,
+          de: 0,
+          ate: 90,
           outliers_perc_maiores_ate: calcula_outliers(0),
           outliers_perc_menores_de: calcula_outliers(0)
         }
       },
-      'Javascript': {
+      'REST': {
         capacidade: {
-          de: 30,
-          ate: 60,
+          de: 20,
+          ate: 50,
+          outliers_perc_maiores_ate: calcula_outliers(10),
+          outliers_perc_menores_de: calcula_outliers(10)
+        }
+      },
+      'Firebase': {
+        capacidade: {
+          de: 0,
+          ate: 20,
           outliers_perc_maiores_ate: calcula_outliers(0),
-          outliers_perc_menores_de: calcula_outliers(50)
+          outliers_perc_menores_de: calcula_outliers(20)
         }
       }
     },
 
     hardskills_atividade: {
-      'HTML': {
-        peso: 50
-      },
-      'CSS': {
-        peso: 30
-      },
-      'Javascript': {
+      'API': {
         peso: 20
+      },
+      'REST': {
+        peso: 40
+      },
+      'Firebase': {
+        peso: 40
       }
     }
 
