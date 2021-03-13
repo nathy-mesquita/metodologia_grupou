@@ -1,4 +1,4 @@
-//node random.js -i turmas/123.json -o grupos -q 6 -s 1
+//node random_pior_caso.js -i turmas/123.json -o grupos -q 6 -s 1
 
 var argv = require('yargs/yargs')(process.argv.slice(2)).argv;
 console.log(argv)
